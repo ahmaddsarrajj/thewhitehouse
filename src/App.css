@@ -1,38 +1,160 @@
-.App {
-  text-align: center;
+*{
+  font-family: 'Poppins', sans-serif;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
+/*toggle*/
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+/*head*/
+.all-header{
+    background-image: url('./photo/background-header.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: block;
+    height: 603px;
+    
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.Login-Register a {
+  text-transform: capitalize;
+  font-size: 16px;
+  padding: 0 10%;
+  position: relative;
+  min-width: max-content;
   color: white;
+  
 }
 
-.App-link {
-  color: #61dafb;
+.Login-Register a :hover{
+  color: #ff8f00
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+@media (max-width: 767px){
+  .all-header{
+    height: 500px;
   }
-  to {
-    transform: rotate(360deg);
+}
+@media (max-width: 1039px){
+.moto-spacing-top-medium {
+    padding-top: 40px;
+}
+}
+@media (max-width: 767px){
+  .moto-spacing-top-medium {
+      padding-top: 35px;
+  }
+  }
+.mobile-header {
+    display: none;
+  }
+
+  @media (max-width: 768px) {
+    .pc-header {
+      display: none !important;
+    }
+    .mobile-header {
+      display: block;
+    }
+    .logo{
+      width:100%;
+      font-size: 30px;
+    }
+    .Login-Register{
+      display: none !important;
+    }
+  }
+  .white-space{
+    height: 135px;
+  }
+  @media (max-width: 767px){
+  .white-space {
+    height: 35px;
+}
+}
+.title{
+  font-size: xx-large;
+  min-width: max-content;
+  letter-spacing: 2px;
+}
+.description{
+  font-size: medium;
+  padding: 20px 0;
+  min-width: fit-content;
+}
+
+/*advice component*/
+.all-advice{
+  height: 325px;
+  background: url('./photo/advice.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.all-advice h4{
+  padding-top: 80px;
+}
+.all-advice p{
+  padding-top: 20px;
+  padding-bottom: 35px;
+}
+.all-advice a{
+ text-transform: uppercase;
+ font-family: 'Montserrat', sans-serif;
+ font-weight: 400;
+ font-style: normal;
+ padding: 20px;
+ background-color: #172a49;
+ border: none;
+ border-radius: 30px;
+ color: white;
+  width: 500px;
+}
+.all-advice a:hover{
+  font-size: medium;
+  background-color: white;
+  color: #28416a
+}
+.all-advice a:active{
+  font-size: medium;
+  background-color: white;
+  color: #28416a
+}
+
+/**advice*/
+.all-services{
+  
+  background: url('./photo/services-background.png');
+  background-position: left bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 40px 30px;
+}
+.all-services h6{
+  padding: 30px;
+}
+.icon{
+  font-size: 70px;
+  
+  width:100%;
+}
+.content{
+  padding: 20px;
+  justify-content: space-between;
+}
+.field{
+  padding: 10px;
+  width: 400px;
+  flex-direction: row;
+  text-align: left;  
+}
+
+@media (max-width:767px){
+  .field{
+    flex-direction: column;
+    text-align: center;
+  }
+  .content{
+    justify-content: center;
   }
 }

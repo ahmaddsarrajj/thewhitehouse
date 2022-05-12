@@ -1,25 +1,27 @@
-import logo from './logo.svg';
 import './App.css';
-
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+import Header from './components/Head';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import 'materialize-css/dist/css/materialize.min.css';
+import AboutUs from './screens/AboutUs.js';
+import Services from './screens/Services.js';
+import Hello from './screens/Hello.js';
+import Footer from './components/Footer.js';
+const App = () =>{
+return(
+  <div>
+    <Header/>
+    <Hello/>
+    <AboutUs/>
+    <Services/>
+    <Footer/>
+    
+    <div class="fixed-action-btn">
+      <a class="btn-floating btn-large red" href='#home'>
+        <i class="large material-icons amber darken-3 waves-effect waves-light">expand_less</i>
+      </a>
     </div>
-  );
+  </div>
+)
 }
 
 export default App;
