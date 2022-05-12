@@ -108,7 +108,7 @@
  border: none;
  border-radius: 30px;
  color: white;
-  width: 500px;
+  
 }
 .all-advice a:hover{
   font-size: medium;
@@ -121,7 +121,7 @@
   color: #28416a
 }
 
-/**advice*/
+/**whyus*/
 .all-services{
   
   background: url('./photo/services-background.png');
@@ -135,7 +135,7 @@
 }
 .icon{
   font-size: 70px;
-  
+  color: #28416a;
   width:100%;
 }
 .content{
@@ -157,4 +157,7 @@
   .content{
     justify-content: center;
   }
+}
+.title{
+  color:#172a49;
 }

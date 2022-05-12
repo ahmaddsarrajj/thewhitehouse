@@ -50,7 +50,7 @@ const Head = ()=> {
                 <div className='white-space'></div>
 
                 {/* title */}
-                <div className='white-text container title col-6 d-flex align-items-center justify-content-center'>
+                <div className='white-text container title col-6 d-flex center-align justify-content-center'>
                   Start your Investing Journey with us
                 </div>
                 <p className='grey-text text-lighten-1 description container col-6 d-flex center-align justify-content-center'>

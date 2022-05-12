@@ -4,8 +4,8 @@ import Fade from 'react-reveal/Fade';
 function WhyUs() {
     return (
         <div id='services' className='all-services'>
-              <h2 className='col-6 d-flex align-items-center container justify-content-center blue-text text-darken-4'>Why choose us?</h2>
-              <h6 className='grey-text tex-darken-3 col-6 d-flex center-align container justify-content-center' >
+              <h2 className='blue-text text-darken-4 col-6 d-flex center align container justify-content-center '>Why choose us?</h2>
+              <h6 className='grey-text text-darken-3 col-6 d-flex center-align container justify-content-center' >
                   We believe everyone should be part of the financial revolution. It’s time to combine cryptocurrency with traditional currencies in our daily finances.
                 </h6>
                 
