@@ -28,11 +28,7 @@
   color: #ff8f00
 }
 
-@media (max-width: 767px){
-  .all-header{
-    height: 500px;
-  }
-}
+
 @media (max-width: 1039px){
 .moto-spacing-top-medium {
     padding-top: 40px;
@@ -72,8 +68,9 @@
 }
 .title{
   font-size: xx-large;
-  min-width: max-content;
+  min-width: min-content;
   letter-spacing: 2px;
+  
 }
 .description{
   font-size: medium;
