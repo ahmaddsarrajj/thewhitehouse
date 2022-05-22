@@ -1,51 +1,30 @@
 import React from 'react';
+import Hamburger from 'hamburger-react'
 
 const Head = ()=> {
       
     return (
-        <div className='all-header moto-spacing-top-medium' id='home'>
+        <div style={{width: '100%'}} className='all-header moto-spacing-top-medium' id='home'>
             
-              <div style={{ paddingTop: '50px'}} className="container">
-                  {/* MOBILE HEADER */}
-                <div className="mobile-header">
-                  <div className="container ">
-                    <div className="row">
-                    <span style={{width:'100%'}} className="logo white-text col-6 d-flex justify-content-center align-items-center">
-                      Logo
-                    </span>
+              <div style={{width:'100%', padding: '50px 0 0 0'}} className="container">
+                
+                  <div className='navbar' style={{width: '100%'}}>
                     
-                    <div  style={{width:"100%", padding:"20px 0"}} className='dropdown show white-text col-6 d-flex justify-content-center align-items-center'>
-                        <a className="dropdown white-text" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" >
-                        <i className='small material-icons'>menu</i>
-                        </a>
-                    <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-                      <a href='#home' className='amber-text text-darken-3 dropdown-item'>Home</a>
-                      <a href='#about-us' className='dropdown-item'>About us</a>
-                      <a href='#services' className='dropdown-item'>Services</a>
-                      <a href='#contact-us' className='dropdown-item'>contact-us</a>
-                    </div>
-                      </div>
-                    </div>
+                      <a href='#' className='logo'>Logo</a>
+                    
+                      <input type="checkbox" id="menu-bar" />
+                      <label for="menu-bar">
+                      <Hamburger size={14} color="white"/>
+                      </label>
+                    
+                      <ul>
+                        <li><a href='#' className='amber-text'>Home</a></li>
+                        <li><a href='#about-us'>About us</a></li>
+                        <li><a href='#services'>Services</a></li>
+                        <li><a href='#contact-us'>Contact us</a></li>
+                      </ul>
                   </div>
-                </div> 
-                {/* PC HEADER */}
-                <div className="pc-header">
-                  
-                    <div className="row">
-                    <span className="white-text logo col-6 d-flex align-items-center">
-                      Logo
-                    </span>
-                    <span className="col-6 d-flex align-items-center justify-content-end  Login-Register">
-                      <a href='#home' className='amber-text text-darken-1'>Home</a>
-                      <a href='#about-us'>About us</a>
-                      <a href='#services'>Services</a>
-                      <a href='#contact-us'>contact-us</a>
-                  
-                    </span>
-                   
-                  </div>
-                </div>
-
+                
                 {/*white space*/}
                 <div className='white-space'></div>
 

@@ -12,52 +12,77 @@
     background-size: cover;
     display: block;
     height: 650px;
-    
-}
-.Login-Register a {
-  text-transform: capitalize;
-  font-size: 16px;
-  padding: 0 10%;
-  position: relative;
-  min-width: max-content;
-  color: white;
+    overflow: hidden;
+  }
+.all-header .container .navbar{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
   
 }
 
-.Login-Register a :hover{
-  color: #ff8f00
+.all-header .container  .navbar ul{
+  list-style: none;
+ 
+}
+.all-header .container  .navbar ul li{
+  position: relative;
+  float: left;
+}
+.all-header .container .navbar ul li a , .logo{
+  font-size: 14px;
+  padding: 20px;
+  color: rgb(189, 194, 194);
+  display: block;
+  
 }
 
+.all-header .container .navbar ul li a:hover {
+  color: white;
+}
+#menu-bar{
+  display: none !important;
+}
+.navbar label{
+  display: none ;
+}
 
-@media (max-width: 1039px){
-.moto-spacing-top-medium {
-    padding-top: 40px;
-}
-}
 @media (max-width: 767px){
-  .moto-spacing-top-medium {
-      padding-top: 35px;
-  }
-  }
-.mobile-header {
-    display: none;
-  }
+  .navbar {
+    display: flex;
+    flex-direction: column;
 
-  @media (max-width: 768px) {
-    .pc-header {
-      display: none !important;
-    }
-    .mobile-header {
-      display: block;
-    }
-    .logo{
-      width:100%;
-      font-size: 30px;
-    }
-    .Login-Register{
-      display: none !important;
-    }
   }
+  .navbar label{
+    display: initial;
+  } 
+  .all-header .container .navbar ul{
+    position: relative;
+    top: 100%; left:0; right:0;
+    background-color: #0a1525da;
+    display: none ;
+    width: 100%;
+  }
+  .all-header .container .navbar ul li{
+    width: 100%;
+    text-align: center;
+    border-bottom: 1px solid #060d18;
+  }
+  .all-header .container .navbar ul li a{
+    color:white;
+  }
+  
+
+  #menu-bar:checked ~ ul{
+    display: block;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+  }
+  #menu-bar:checked  ~ div{
+    background-color: #060d18;
+  } 
+  
+}
+
   .white-space{
     height: 135px;
   }
@@ -157,4 +182,9 @@
 }
 .title{
   color:#172a49;
+}
+
+.dropdown-menu{
+  width: 100%;
+  margin-left: -100px;
 }
