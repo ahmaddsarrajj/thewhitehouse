@@ -6,7 +6,7 @@ const Head = ()=> {
     return (
         <div style={{width: '100%'}} className='all-header moto-spacing-top-medium' id='home'>
             
-              <div style={{width:'100%', padding: '50px 0 0 0'}} className="container">
+              <div style={{width:'100%', padding: '50px'}} className="container">
                 
                   <div className='navbar' style={{width: '100%'}}>
                     
@@ -14,11 +14,11 @@ const Head = ()=> {
                     
                       <input type="checkbox" id="menu-bar" />
                       <label for="menu-bar">
-                      <Hamburger size={14} color="white"/>
+                      <Hamburger size={18} color="white"/>
                       </label>
                     
                       <ul>
-                        <li><a href='#' className='amber-text'>Home</a></li>
+                        <li><a href='#' className='amber-text text-darken-3'>Home</a></li>
                         <li><a href='#about-us'>About us</a></li>
                         <li><a href='#services'>Services</a></li>
                         <li><a href='#contact-us'>Contact us</a></li>

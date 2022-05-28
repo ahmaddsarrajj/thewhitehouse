@@ -1,10 +1,10 @@
 import React from 'react';
-import Team from '../components/aboutUsComponent/Team.js';
+import Aboutus from '../components/aboutUsComponent/Aboutus';
 
 function AboutUs(props) {
     return (
         <div>
-            <Team/>
+            <Aboutus/>
         </div>
     );
 }
