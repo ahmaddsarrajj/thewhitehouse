@@ -5,8 +5,9 @@ const Head = ()=> {
       
     return (
         <div style={{width: '100%'}} className='all-header moto-spacing-top-medium' id='home'>
-            
-              <div style={{width:'100%', padding: '50px'}} className="container">
+
+              <div style={{width:'100%', padding: '50px 0 50px 0'}} className="container">
+
                 
                   <div className='navbar' style={{width: '100%'}}>
                     
