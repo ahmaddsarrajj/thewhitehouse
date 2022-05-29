@@ -34,7 +34,7 @@ const Head = ()=> {
                   Start your Investing Journey with us
                 </div>
                 <p className='grey-text text-lighten-1 description container col-6 d-flex center-align justify-content-center'>
-                Obtaining bitcoins works just like obtaining any other currency. You can sell something you already have for them. You can ask your existing employer to pay you in Bitcoin.
+                We believe everyone should be part of the financial revolution. It’s time to combine cryptocurrency with traditional currencies in our daily finances.
                 </p>
               </div>
             </div>

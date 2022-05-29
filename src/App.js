@@ -11,7 +11,6 @@ const App = () =>{
 return(
   <div>
     <Header/>
-    <Hello/>
     <AboutUs/>
     <Services/>
     <Footer/>

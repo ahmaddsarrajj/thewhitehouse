@@ -5,40 +5,37 @@ function WhyUs() {
     return (
         <div id='services' className='all-services'>
               <h2 className='black-text title '>Why choose us?</h2>
-              
-              <h6 className='grey-text text-darken-3 col-6 d-flex center-align container justify-content-center' >
-                  We believe everyone should be part of the financial revolution. It’s time to combine cryptocurrency with traditional currencies in our daily finances.
-                </h6>
+            <div className="line" ></div>
+            <div  className='p-content'>
                 
-      <div className='content d-flex flex-row flex-wrap'>
-        <div className='field'>
-            <i className='material-icons'>whatsapp</i>
-            <h5>title</h5>
-            <p>description</p>
-        </div>
-       
-        <div className='field'>
-            <i className='material-icons'>user</i>
-            <h5>title</h5>
-            <p>description</p>
-        </div>
-       
-        <div className='field'>
-            <i className='material-icons'>user</i>
-            <h5>title</h5>
-            <p>description</p>
-        </div>
-       
-        <div className='field'>
-            <i className='material-icons'>user</i>
-            <h5>title</h5>
-            <p>description</p>
-        </div>
-        <div className='field'>
-            <i className='material-icons'>user</i>
-            <h5>title</h5>
-            <p>description</p>
-        </div>
+                <div className='des'>Take a look at our special services</div>
+
+                <div className='content d-flex flex-row flex-wrap'>
+                    <div className='field'>
+                        <i className='material-icons large'>account_circle</i>
+                        <h5>Portfolio Management</h5>
+                        <div>Account</div>
+                        <div>Management</div>
+                        <div>portfolio Taking</div>
+                    </div>
+
+                    <div className='field'>
+                        <i className='material-icons large'>attach_money</i>
+                        <h5>Corporate Services</h5>
+                        <div>Money Transfer</div>
+                        <div>USDT</div>
+                        <div>Cashout / Deposite</div>
+                    </div>
+
+                    <div className='field'>
+                        <i className='material-icons large'>school</i>
+                        <h5>Crypto Education</h5>
+                        <div>Direct contact with our experts</div>
+                        <div>Technical analysis</div>
+                        <div>Blogs</div>
+                    </div>
+
+                </div>
             </div>    
         </div>
     );
