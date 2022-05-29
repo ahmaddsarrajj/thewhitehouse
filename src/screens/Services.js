@@ -6,8 +6,8 @@ import OurServices from '../components/servicesComponent/OurServices.js';
 function Services(props) {
     return (
         <div>
+            <OurServices/>
             <WhyUs/>
-            <OurServices></OurServices>
             <Advice/>
         </div>
     );

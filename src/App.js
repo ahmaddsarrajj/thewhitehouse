@@ -18,8 +18,8 @@ return(
     
     <div class="fixed-action-btn">
       <div >
-        <a class="btn-floating btn-large amber darken-3" href='#home'>
-          <i class="large material-icons amber darken-3 waves-effect waves-light">whatsapp</i>
+        <a class="btn-floating btn-large amber accent-3" href='#home'>
+          <i class="black-text large material-icons amber accent-3 waves-effect waves-light">whatsapp</i>
         </a>
       </div>
     </div> 

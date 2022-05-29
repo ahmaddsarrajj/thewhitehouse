@@ -362,7 +362,7 @@ section {
   left: -3px;
   background: transparent;
   z-index: 0;
-  border: 44px solid #ff8f00 ;
+  border: 44px solid #ffc239 ;
   }
   
   .about-section .image-column .image-1{
@@ -619,7 +619,7 @@ top: -80px;
 left: -3px;
 background: transparent;
 z-index: 0;
-border: 44px solid #ff8f00 ;
+border: 44px solid #ffc239 ;
 }
 
 .about-section .image-column .image-1{
@@ -754,9 +754,66 @@ color: #ffffff
   justify-content: space-around;
   
 }
+.pp-content{
+  width: 100%;
+  justify-content: center;
+  flex-wrap: wrap;
+  display: flex;
+  flex-direction: row;
+}
+.p-field{
+  width: 30%;
+  height: 400px;
+  padding: 20px 40px;
+  margin: 40px 5px 80px 5px;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.layer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+  background-color: #172a49;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0.7;
+  color: #ffc239;
+  z-index: 800;
+}  
+.p-field div{
+  text-align: center;
+  font-size: medium;
+}
+.p-field h5{
+  text-align: center;
+  font-weight: 900;
+
+}
+
+@media (max-width: 765px) {
+  .p-field{
+    margin-bottom: 10px;
+    width: 100%;
+    margin-top: 10px;
+  }
+  .pp-content{
+    margin-bottom: 100px;
+  }
+}
+
 .p-content .des{
   font-size: x-large;
 }
+
 .line{
   background: #ffc239;
   width: 10%;
@@ -775,7 +832,7 @@ color: #ffffff
   flex-direction: row;
   text-align: left;
   padding: 30px;
-  margin-bottom: 30px;
+  margin-bottom: 100px;
   box-shadow: 0 12px 30px -15px rgb(0 0 0 / 30%);
   border-left: 4px solid #ffc239;
   position: relative;
@@ -816,6 +873,8 @@ color: #ffffff
   width: 100%;
   margin-left: -100px;
 }
+
+
 /**footer*/
 footer{
   background-color: #292a2b;
@@ -840,7 +899,7 @@ footer{
 .blockquote h1 {
    font-family: 'Raleway', sans-serif;;
    position: relative; /* for pseudos */
-   color: #ff8f00;
+   color: #ffc239;
    text-align: center;
    font-size: 2.8rem;
    font-weight: 50;
@@ -857,7 +916,7 @@ footer{
 .blockquote h1:after {
    content:"";
    position: absolute;
-   border: 2px solid #ff8f00;
+   border: 2px solid #ffc239;
    border-radius: 0 50px 0 0;
    width: 60px;
    height: 60px;
