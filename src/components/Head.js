@@ -19,7 +19,7 @@ const Head = ()=> {
                       </label>
                     
                       <ul>
-                        <li><a href='#' className='amber-text text-darken-3'>Home</a></li>
+                        <li><a href='#' className='amber-text text-accent-3'>Home</a></li>
                         <li><a href='#about-us'>About us</a></li>
                         <li><a href='#services'>Services</a></li>
                         <li><a href='#contact-us'>Contact us</a></li>
