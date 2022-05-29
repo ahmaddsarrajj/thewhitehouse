@@ -4,8 +4,8 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import 'materialize-css/dist/css/materialize.min.css';
 import AboutUs from './screens/AboutUs.js';
 import Services from './screens/Services.js';
-import Hello from './screens/Hello.js';
 import Footer from './components/Footer.js';
+import Blog from './components/blog/Blog';
 
 const App = () =>{
 return(
@@ -13,6 +13,7 @@ return(
     <Header/>
     <AboutUs/>
     <Services/>
+    <Blog/> 
     <Footer/>
     
     <div class="fixed-action-btn">

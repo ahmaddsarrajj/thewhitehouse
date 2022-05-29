@@ -8,7 +8,7 @@ function WhyUs() {
             <div className="line" ></div>
             <div  className='p-content'>
                 
-                <div className='des'>Take a look at our special services</div>
+                <div className='des' style={{padding: '10px 0px 20px 0px'}}>Take a look at our special services</div>
 
                 <div className='content d-flex flex-row flex-wrap'>
                     <div className='field'>
