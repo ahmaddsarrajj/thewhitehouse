@@ -1,5 +1,6 @@
 import React from 'react';
-import Hamburger from 'hamburger-react'
+import Hamburger from 'hamburger-react';
+import logo from '../photo/1.png'
 
 const Head = ()=> {
       
@@ -11,7 +12,19 @@ const Head = ()=> {
                 
                   <div className='navbar' style={{width: '100%'}}>
                     
-                      <a href='#' className='logo'>Logo</a>
+                      <a href='#' className='logo' >
+                        <span>
+                        <img src={logo} style={{width: '160px', height: '90px'}} />
+                        </span>
+                        <span>
+                        <span>
+                        THE WHITE HOUSE
+                        </span>
+                        <span style={{fontSize: '18px',paddingLeft:'12px',marginTop: '-5px'}}>
+                          TRAIDING OFFICE
+                        </span>
+                        </span>
+                      </a>
                     
                       <input type="checkbox" id="menu-bar" />
                       <label for="menu-bar">
