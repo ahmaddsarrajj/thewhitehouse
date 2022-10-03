@@ -2,7 +2,7 @@ import React from 'react';
 
 const Footer = () => {
     return (
-        <footer>
+        <footer id="contact-us">
             <div className='contact-us' >
       
                 <div class="blockquote-wrapper">
