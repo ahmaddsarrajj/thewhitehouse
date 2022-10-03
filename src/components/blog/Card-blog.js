@@ -17,7 +17,7 @@ import 'react-toastify/dist/ReactToastify.css';
     
     
     return (
-        <div>
+        <div style={{margin: "10px"}}>
             <ToastContainer />
         
     
