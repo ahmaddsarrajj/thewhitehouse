@@ -3,7 +3,7 @@ import React from 'react';
 function Aboutus() {
     return (
         
-        <section class="about-section d-flex justify-content-center">
+        <section id="about-us" class="about-section d-flex justify-content-center">
             <div class="container">
                 <div class="row">
                     <div class="content-column col-lg-6 col-md-12 col-sm-12 order-2">
