@@ -13,8 +13,7 @@ const Blog = () => {
              <Cardblog/>
              <br/>
              <Cardblog/>
-             <br/>
-             <Cardblog/>
+             
             </div>
         </div>
      );
